@@ -34,7 +34,7 @@ function rememberMyFilms() {
   }
 };
 
-rememberMyFilms()
+rememberMyFilms();
 
 
 
@@ -69,6 +69,7 @@ function writeYourGenres() {
 };
 
 writeYourGenres();
+
 
 
 
