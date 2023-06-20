@@ -21,7 +21,7 @@ const personalMovieDB = {
 
 function rememberMyFilms() {
   for (let i = 0; i < 1; i++) {
-    const a = prompt('ur last film?', '');
+    const a = prompt('ur last film?', '').trim();
     const b = prompt('how much u rated film?', '');
 
     if (a != null && b != null && a != '' && b != '' && a.length < 50) {
@@ -59,7 +59,7 @@ function showMyDB(hidden) {
     console.log(personalMovieDB);
   }
 };
-
+  
 showMyDB(personalMovieDB.privat)
 
 function writeYourGenres() {
@@ -70,5 +70,4 @@ function writeYourGenres() {
 
 writeYourGenres();
 
-
-
+ 
